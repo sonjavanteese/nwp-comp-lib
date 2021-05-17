@@ -1,0 +1,27 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#app > main {
+    flex: 1 1 auto;
+    align-self: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* #app {
+    opacity: 0.1;
+    transition: opacity 0.95s linear;
+    transition-delay: 500ms;
+}
+
+#app.loaded {
+    opacity: 1;
+} */
+

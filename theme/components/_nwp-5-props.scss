@@ -1,0 +1,27 @@
+
+.bg-1 {
+   background-image: url('../nwp_bg1.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-color: #333;
+   filter: grayscale(100%);
+}
+
+.bg-2 {
+   background-image: url('../nwp_bg3.png');
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   background-size: contain;
+   background-attachment: scroll;
+   color: #f4f4f4;
+}
+
+.bg-3 {
+   background-image: url('../swsf3.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-color: #333;
+   filter: grayscale(100%);
+}

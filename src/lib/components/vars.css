@@ -1,0 +1,90 @@
+$base-margin: 0;
+$base-font-size: 1rem;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+$base-color: #444;
+$base-background-color: #ffffff;
+$defaultIconSize: 30px;
+$defaultIconSizeBg: 28px;
+
+:root {
+   --app-color: #484848;
+   --app-bg: #ffffff;
+   --app-header-height: 50px;
+   --header-bg-default: rgba(37, 99, 235, 1);
+   --header-bg-dark: rgba(56, 56, 56, 1);
+}
+
+:root {
+   --navbar-color: #fff;
+   --navbar-bg: var(--header-bg-default);
+   --navbar-bg-dark: var(--header-bg-dark);
+   --navbar-border: 1px solid rgba(29, 78, 216, 1);
+   --navbar-item-height: var(--app-header-height);
+   --navbar-button-active: rgba(204, 204, 204, 0.4);
+}
+
+:root {
+   --sidebar-header-color: #fff;
+   --sidebar-header-bg: var(--header-bg-default);
+   --sidebar-header-bg-dark: var(--header-bg-dark);
+   --sidebar-header-border: 1px solid rgba(29, 78, 216, 1);
+   --sidebar-button-active: rgba(204, 204, 204, 0.4);
+   --sidebar-font-size: 1.4rem;
+   --sidebar-color: var(--app-color);
+   --sidebar-bg: var(--app-bg);
+   --sidebar-width: 340px;
+   --sidebar-offcont: -340px;
+   --sidebar-item-height: var(--app-header-height);
+   --sidebar-overlay-bg: rgba(0, 0, 0, 0.4);
+}
+
+:root {
+   --list-item-font-size: 1rem;
+   --list-item-font-size-lg: 1.25rem;
+   --list-item-font-size-xl: 1.5rem;
+   --list-item-color: #383838;
+   --list-item-bg: transparent;
+   --list-item-border-color: #eeeeee;
+   --list-item-active: rgba(204, 204, 204, 0.4)
+}
+
+:root {
+   --actsheet-panel-width: 560px;
+   --actsheet-color: #484848;
+   --actsheet-bg: #ffffff;
+   --actsheet-item-height: 40px;
+   --actsheet-close-bg: #333333;
+   --actsheet-close-color: #ffffff;
+   --actsheet-close-border-color: #111;
+   --actsheet-body-mb: 0.5rem;
+   --actsheet-head-mb: 0.5rem;
+   --actsheet-item-mb: 0.15rem;
+   --actsheet-header-size: 1.2rem;
+   --actsheet-header-color: #444;
+   --actsheet-header-bg: #e6e6e6;
+   --actsheet-header-bg-dark: var(--header-bg-dark);
+   --actsheet-border-color: #cccccc;
+   --actsheet-border-color-dark: #222222;
+   --actsheet-border-radius: 6px;
+   --actsheet-overlay-bg: rgba(0, 0, 0, 0.4);
+}
+
+:root {
+   --navbar-body-color: #F6F6F6; 
+   --navbar-body-bg: #2172D2; 
+   --navbar-body-border: #2172D2; 
+   --navbar-body-height: 50px; 
+   --navbar-active-bg: rgba(204, 204, 204, 0.4); 
+   --navbar-body-color-dark: #F6F6F6; 
+   --navbar-body-bg-dark: #424656; 
+   --navbar-bar-bg: transparent; 
+   --navbar-bar-color: #F6F6F6; 
+   --navbar-bar-fontsize: 1rem; 
+   --navbar-bar-fontsize-lg: 1.25rem; 
+   --navbar-bar-fontsize-xl: 1.5rem; 
+   --navbar-bar-fontsize-weight: 600; 
+   --navbar-bar-height: 50px; 
+   --navbar-bar-width: 30px; 
+   --navbar-bar-active: rgba(204, 204, 204, 0.4);   
+}

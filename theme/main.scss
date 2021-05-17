@@ -1,0 +1,20 @@
+// @import 'boot';
+$success-color: #4C8581;
+$error-color: #B53B59;
+$primary-color: #2172D2;
+$dark-color: #424656;
+// @import 'spectre/spectre';
+// @import 'spectre/spectre-exp';
+ //  @import 'spectre/spectre-icons';
+@import 'bootstrap/bootstrap-utilities';
+// @import 'boot';
+@import 'app';
+
+// .card .card-image { width: 100%; height: 150px; text-align: center; }
+pre {
+   padding: 1rem;
+   border-radius: 6px;
+   color: #a5a5a5;
+   background-color: #F6F6F6;
+   overflow: auto;
+}
